@@ -4,12 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
     <title>Test HW2</title>
   </head>
   <body>
     <header class="header">
       <section class="header__part1">
-        <div class="container">
+        <div class="header__container container">
           <div class="header__social">
             <p class="header__text">Ми в соціальних мережах:</p>
             <svg class="" width="21.75" height="18.24">
@@ -23,27 +28,8 @@
             </svg>
           </div>
           <div class="header__contacts">
-            <svg
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M17 2H7C5.89543 2 5 2.89543 5 4V20C5 21.1046 5.89543 22 7 22H17C18.1046 22 19 21.1046 19 20V4C19 2.89543 18.1046 2 17 2Z"
-                stroke="#1E2E36"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M12 18H12.01"
-                stroke="#1E2E36"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
+            <svg class="" width="24" height="24">
+              <use href="./img/icons.svg#icon-smartphone-b"></use>
             </svg>
             <a class="header__tel" href="tel:+380991112233">(099) 111 22 33</a>
             <svg class="" width="24" height="24">
@@ -103,14 +89,184 @@
               </li>
             </ul>
           </div>
+          <div class="header__logo">
+            <svg class="" width="125" height="75">
+              <use href="./img/icons.svg#icon-logo-header"></use>
+            </svg>
+            <p class="header__caption">Furniture.test</p>
+          </div>
+          <div class="header__order">
+            <svg class="" width="30" height="30">
+              <use href="./img/icons.svg#icon-shopping-cart"></use>
+            </svg>
+            <p class="header__desc">Кошик</p>
+            <button class="header__button" type="submit">
+              Замовити дзвінок
+            </button>
+          </div>
         </div>
       </section>
     </header>
     <main>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
+      <section class="hero">
+        <div class="hero__container container">
+          <div class="hero__aside">
+            <h1>Новинка!</h1>
+            <h2>Ліжко Ornella</h2>
+            <p>Це новий рівень комфортного сну</p>
+            <button type="button">Детальніше</button>
+            <p>01 <span>/ 04</span></p>
+            <div>
+              <a href="">
+                <button>
+                  <svg class="" width="30" height="30">
+                    <use href="./img/icons.svg#icon-arrow-left"></use>
+                  </svg>
+                </button>
+              </a>
+              <a href="">
+                <button>
+                  <svg class="" width="30" height="30">
+                    <use href="./img/icons.svg#icon-arrow-right"></use>
+                  </svg>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="benefits">
+        <div class="benefits__container container">
+          <h2 class="benefits__title">Наші переваги</h2>
+          <ul class="benefits__list">
+            <li class="benefits__item">
+              <img src="./img/benefits1.jpg" alt="Меблі преміум класу" />
+            </li>
+            <li class="benefits__item">
+              <img src="./img/benefits2.jpg" alt="Надійність" />
+            </li>
+            <li class="benefits__item">
+              <img src="./img/benefits3.jpg" alt="Безкоштовна доставка" />
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="categories">
+        <div class="categories__container container">
+          <h2 class="categories__title">Категорії товарів</h2>
+          <ul class="categories__list">
+            <li class="categories__item">
+              <svg class="" width="100" height="100">
+                <use href="./img/icons.svg#icon-living-room"></use>
+              </svg>
+              <p class="categories__desc">Дивани</p>
+            </li>
+            <li class="categories__item">
+              <svg class="" width="100" height="100">
+                <use href="./img/icons.svg#icon-bedroom"></use>
+              </svg>
+              <p class="categories__desc">Ліжка</p>
+            </li>
+            <li class="categories__item">
+              <svg class="" width="100" height="100">
+                <use href="./img/icons.svg#icon-armchair"></use>
+              </svg>
+              <p class="categories__desc">Крісла</p>
+            </li>
+            <li class="categories__item">
+              <svg class="" width="100" height="100">
+                <use href="./img/icons.svg#icon-wardrobe-small"></use>
+              </svg>
+              <p class="categories__desc">Комоди</p>
+            </li>
+            <li class="categories__item">
+              <svg class="" width="100" height="100">
+                <use href="./img/icons.svg#icon-wardrobe-big"></use>
+              </svg>
+              <p class="categories__desc">Шафи</p>
+            </li>
+            <li class="categories__item">
+              <svg class="" width="100" height="100">
+                <use href="./img/icons.svg#icon-kitchen"></use>
+              </svg>
+              <p class="categories__desc">Кухня</p>
+            </li>
+          </ul>
+          <ul class="categories__list">
+            <li class="categories__item">
+              <a href="">
+                <img src="./img/goods1.jpg" alt="Ліжко Рамона" width="586">
+                  <div>
+                    <p>Ліжко Рамона</p>
+                    <p>8 999 грн</p>
+                  </div>
+                </img>
+              </a>
+            </li>
+            <li class="categories__item">
+              <a href="">
+                <img src="./img/goods2.jpg" alt="Ліжко Честер" width="586">
+                  <div>
+                    <p>Ліжко Честер</p>
+                    <p>8 999 грн<span>8 999 грн</span></p>
+                  </div>
+                </img>
+              </a>
+            </li>
+            <li class="categories__item">
+              <a href="">
+                <img src="./img/goods3.jpg" alt="Ліжко Венеція люкс" width="586">
+                  <div>
+                    <p>Ліжко Венеція люкс</p>
+                    <p>8 999 грн</p>
+                  </div>
+                </img>
+              </a>
+            </li>
+            <li class="categories__item">
+              <a href="">
+                <img src="./img/goods4.jpg" alt="Ліжко Імперія" width="586">
+                  <div>
+                    <p>Ліжко Імперія</p>
+                    <p>8 999 грн</p>
+                  </div>
+                </img>
+              </a>
+            </li>
+            <li class="categories__item">
+              <a href="">
+                <img src="./img/goods5.jpg" alt="Ліжко Адель" width="586">
+                  <div>
+                    <p>Ліжко Адель</p>
+                    <p>8 999 грн</p>
+                  </div>
+                </img>
+              </a>
+            </li>
+            <li class="categories__item">
+              <a href="">
+                <img src="./img/goods6.jpg" alt="Ліжко Атлант" width="586">
+                  <div>
+                    <p>Ліжко Атлант</p>
+                    <p>8 999 грн<span>8 999 грн</span></p>
+                  </div>
+                </img>
+              </a>
+            </li>
+          </ul>
+         <button type="button">В каталог</button>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__container container">
+          <h2 class="about__title">Про нас</h2>
+          <div>
+            <p><span>"Furniture"</span> – "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <p></p>
+          </div>
+        </div>
+      </section>
       <section></section>
     </main>
     <footer>
