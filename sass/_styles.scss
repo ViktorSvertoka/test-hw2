@@ -324,10 +324,13 @@
 .benefits__container {
 }
 
+.benefits__position-wrapper {
+  position: relative;
+}
+
 .benefits__green-bg {
   position: absolute;
-  left: 905px;
-  bottom: -50px;
+  left: 784px;
 }
 
 .benefits__title {
@@ -350,16 +353,38 @@
 .benefits__item {
 }
 
+.benefits__img-left {
+  position: relative;
+}
+
+.benefits__icon-left {
+  position: absolute;
+  top: 10px;
+  left: 30px;
+}
+
+.benefits__img-right {
+  position: relative;
+}
+
+.benefits__icon-right {
+  position: absolute;
+  top: 30px;
+}
+
 .categories {
 }
 
 .categories__container {
 }
 
+.categories__position-wrapper {
+  position: relative;
+}
+
 .categories__green-bg {
   position: absolute;
-  left: 870px;
-  bottom: -645px;
+  left: 752px;
 }
 
 .categories__title {
@@ -513,10 +538,13 @@
 .about__container {
 }
 
+.about__position-wrapper {
+  position: relative;
+}
+
 .about__green-bg {
   position: absolute;
-  left: 982px;
-  bottom: -1971px;
+  left: 863px;
 }
 
 .about__title {
@@ -575,10 +603,13 @@
 .questions__container {
 }
 
+.questions__position-wrapper {
+  position: relative;
+}
+
 .questions__green-bg {
   position: absolute;
-  left: 808px;
-  bottom: -2855px;
+  left: 688px;
 }
 
 .questions__title {
