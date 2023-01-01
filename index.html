@@ -17,7 +17,9 @@
         <div class="header__container container">
           <div class="header__wrapper">
             <div class="header__social">
-              <p class="header__social-text">Ми в соціальних мережах:</p>
+              <p id="up" class="header__social-text">
+                Ми в соціальних мережах:
+              </p>
               <ul class="header__social-list">
                 <li class="header__social-item header__social-item--pseudo">
                   <a
@@ -181,6 +183,9 @@
       </section>
       <section class="benefits">
         <div class="benefits__container container">
+          <svg class="benefits__green-bg" width="20" height="50">
+            <use href="./img/icons.svg#icon-green-bg"></use>
+          </svg>
           <h2 class="benefits__title">Наші переваги</h2>
           <ul class="benefits__list">
             <li class="benefits__item">
@@ -197,6 +202,9 @@
       </section>
       <section class="categories">
         <div class="categories__container container">
+          <svg class="categories__green-bg" width="20" height="50">
+            <use href="./img/icons.svg#icon-green-bg"></use>
+          </svg>
           <h2 class="categories__title">Категорії товарів</h2>
           <ul class="categories__icon-list">
             <li class="categories__icon-item">
@@ -320,6 +328,9 @@
       </section>
       <section class="about">
         <div class="about__container container">
+          <svg class="about__green-bg" width="20" height="50">
+            <use href="./img/icons.svg#icon-green-bg"></use>
+          </svg>
           <h2 class="about__title">Про нас</h2>
           <div class="about__img-wrapper">
             <img
@@ -361,6 +372,9 @@
       </section>
       <section class="questions">
         <div class="questions__container container">
+          <svg class="questions__green-bg" width="20" height="50">
+            <use href="./img/icons.svg#icon-green-bg"></use>
+          </svg>
           <h2 class="questions__title">Залишились питання?</h2>
           <div class="questions__wrap">
             <img
@@ -404,7 +418,7 @@
     <footer class="footer">
       <div class="footer__container container">
         <section class="footer__left">
-          <a class="footer__button-up" href="##">
+          <a class="footer__button-up" href="#">
             <svg class="" width="50" height="50">
               <use href="./img/icons.svg#icon-button-up"></use>
             </svg>
@@ -467,69 +481,83 @@
               </ul>
             </div>
             <address class="footer__address">
-              <div>
-                <a href="##">
+              <div class="footer__map-pin">
+                <a class="footer__map-pin-link" href="##">
                   <svg class="" width="24" height="24">
                     <use href="./img/icons.svg#icon-map-pin"></use>
                   </svg>
                 </a>
-                <p>TEST</p>
+                <p class="footer__map-pin-text">TEST</p>
               </div>
-              <div>
+              <div class="footer__calendar">
                 <svg class="" width="24" height="24">
                   <use href="./img/icons.svg#icon-calendar"></use>
                 </svg>
-                <p>Пн-Пт, з 10 до 18</p>
+                <p class="footer__calendar-text">Пн-Пт, з 10 до 18</p>
               </div>
-              <div>
-                <ul>
-                  <li>
-                    <svg class="" width="24" height="24">
+              <div class="footer__contacts">
+                <ul class="footer__contacts-list">
+                  <li class="footer__contacts-item1">
+                    <svg class="footer__contacts-icon" width="24" height="24">
                       <use href="./img/icons.svg#icon-smartphone-g"></use>
                     </svg>
-                    <a href="tel:+380991112233">(099) 111 22 33</a>
+                    <a class="footer__contacts-link" href="tel:+380991112233"
+                      >(099) 111 22 33</a
+                    >
                   </li>
-                  <li>
-                    <a href="tel:+380992223344">(099) 222 33 44</a>
+                  <li class="footer__contacts-item2">
+                    <a class="footer__contacts-link" href="tel:+380992223344"
+                      >(099) 222 33 44</a
+                    >
                   </li>
                 </ul>
               </div>
-              <div>
-                <p>Ми в соціальних мережах:</p>
-                <ul>
-                  <li>
-                    <a href=""
-                      ><svg class="" width="24" height="24">
+              <div class="footer__social">
+                <p class="footer__social-text">Ми в соціальних мережах:</p>
+                <ul class="footer__social-list">
+                  <li class="footer__social-item">
+                    <a class="footer__social-link" href="##"
+                      ><svg class="footer__social-icon" width="24" height="24">
                         <use href="./img/icons.svg#icon-telegram"></use></svg
                     ></a>
                   </li>
-                  <li>
-                    <a href=""
-                      ><svg class="" width="24" height="24">
+                  <li class="footer__social-item">
+                    <a class="footer__social-link" href="##"
+                      ><svg class="footer__social-icon" width="24" height="24">
                         <use href="./img/icons.svg#icon-facebook"></use></svg
                     ></a>
                   </li>
-                  <li>
-                    <a href=""
-                      ><svg class="" width="24" height="24">
+                  <li class="footer__social-item">
+                    <a class="footer__social-link" href="##"
+                      ><svg class="footer__social-icon" width="24" height="24">
                         <use href="./img/icons.svg#icon-instagram"></use></svg
                     ></a>
                   </li>
                 </ul>
               </div>
-              <p>© ТОВ Furniture, працюємо з 2006 року</p>
-              <a href="##">
-                <svg class="" width="20" height="21">
-                  <use href="./img/icons.svg#icon-g-icon"></use>
-                </svg>
-                <p>Глянець — розробка інтернет-магазинів</p>
-              </a>
             </address>
+          </div>
+          <div class="footer__copyright">
+            <p class="footer__copyright-text">
+              © ТОВ Furniture, працюємо з 2006 року
+            </p>
+            <a class="footer__copyright-link" href="##">
+              <svg class="footer__copyright-icon" width="20" height="21">
+                <use href="./img/icons.svg#icon-g-icon"></use>
+              </svg>
+              <p class="footer__copyright-desc">
+                Глянець — розробка інтернет-магазинів
+              </p>
+            </a>
           </div>
         </section>
         <section>
           <div>
-            <img src="./img/bg-footer.jpg" alt="Вітальня" />
+            <img
+              class="footer-bg-img"
+              src="./img/bg-footer.jpg"
+              alt="Вітальня"
+            />
           </div>
         </section>
       </div>
