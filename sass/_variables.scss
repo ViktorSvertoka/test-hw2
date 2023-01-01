@@ -1,7 +1,6 @@
 $primary-color: #1e2e36;
 $secondary-color: #ffffff;
 $accent-color: #44c697;
-$bg-color: #e5e5e5;
 $numbers-color-grey: #bcbdbb;
 $numbers-color-red: #ff1b1b;
 
@@ -9,7 +8,7 @@ $primary-fonts: 'Proxima Nova';
 $dev-link-fonts: 'Cuprum';
 
 body {
-  background-color: $bg-color;
+  background-color: $secondary-color;
   color: $primary-color;
   font-family: $primary-fonts, sans-serif;
   font-weight: 400;
