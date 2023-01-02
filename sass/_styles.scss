@@ -1051,8 +1051,8 @@
   width: 831px;
   height: 520px;
   background: $primary-color;
-  // margin-left: 51px;
   position: relative;
+  padding-bottom: 0;
 }
 
 .footer__button-up {
@@ -1262,6 +1262,10 @@
 }
 
 .footer__copyright-desc {
+}
+
+.footer__right {
+  padding-bottom: 0;
 }
 
 .footer-bg-img {

@@ -1224,6 +1224,7 @@ section {
   height: 520px;
   background: #1e2e36;
   position: relative;
+  padding-bottom: 0;
 }
 
 .footer__button-up {
@@ -1462,4 +1463,8 @@ section {
 
 .footer__copyright-icon {
   margin-right: 3px;
+}
+
+.footer__right {
+  padding-bottom: 0;
 }/*# sourceMappingURL=main.css.map */
