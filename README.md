@@ -43,3 +43,34 @@
 ---
 
 11. на все внешние ссылки - rel="noopener noreferrer nofollow"
+
+---
+
+12. фонтс - Free Fonts: https://nomail.com.ua/
+
+Google Fonts: https://fonts.google.com/
+
+Fonts converter: http://www.font2web.com/
+
+---
+
+@font-face { font-family: 'Proxima Nova'; src:
+url('../fonts/FontsFree-Net-Proxima-Nova-Bold.eot'); src: local('вє'),
+url('../fonts/Proxima-Nova-Bold.woff') format('woff'),
+url('../fonts/Proxima-Nova-Bold.ttf') format('truetype'),
+url('../fonts/Proxima-Nova-Bold.svg') format('svg'); font-weight: 700;
+font-style: normal; }
+
+---
+
+font-weight:
+
+1. 100 - thin
+2. 200 - UltraLite
+3. 300 - lite
+4. 400 - normal
+5. 500 - medium
+6. 600 - semibold
+7. 700 - bold
+8. 800 - Heavy
+9. 900 - black
