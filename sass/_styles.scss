@@ -913,7 +913,7 @@
   border-right: 15px solid $accent-color;
   position: absolute;
   top: 100px;
-  left: 51px;
+  left: 0;
 }
 
 .about__text {
@@ -960,7 +960,7 @@
 }
 
 .questions__wrap {
-  margin-left: 51px;
+  // margin-left: 51px;
   position: relative;
   width: 1920px;
   height: 675px;
@@ -981,7 +981,7 @@
   border-left: 15px solid $accent-color;
   position: absolute;
   top: 100px;
-  left: 1356px;
+  left: 1407px;
 }
 
 .questions__subtitle {
@@ -1048,10 +1048,10 @@
 }
 
 .footer__left {
-  width: 780px;
+  width: 831px;
   height: 520px;
   background: $primary-color;
-  margin-left: 51px;
+  // margin-left: 51px;
   position: relative;
 }
 
@@ -1247,14 +1247,14 @@
 .footer__copyright-link {
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.14;
   text-transform: uppercase;
   color: $secondary-color;
   display: flex;
   align-items: center;
   white-space: nowrap;
-  margin-left: 120px;
+  margin-left: 220px;
 }
 
 .footer__copyright-icon {
