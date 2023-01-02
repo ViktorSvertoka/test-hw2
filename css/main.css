@@ -193,6 +193,10 @@ section {
           align-items: center;
 }
 
+.header__contacts-icon {
+  margin-left: 5px;
+}
+
 .header__nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -257,7 +261,7 @@ section {
   padding-bottom: 0;
 }
 
-.header__part2__container {
+.header__container2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -308,6 +312,10 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.header__assortment-icon {
+  margin-left: 5px;
 }
 
 .header__logo {
@@ -488,8 +496,8 @@ section {
 }
 
 .hero__button-left {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border: 1px solid #1e2e36;
   border-radius: 50%;
   background-color: transparent;
@@ -511,8 +519,8 @@ section {
 }
 
 .hero__button-right {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border: 1px solid #1e2e36;
   border-radius: 50%;
   background-color: transparent;
@@ -592,8 +600,8 @@ section {
   position: absolute;
   top: 160px;
   left: 15px;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border: 1px solid #ffffff;
   border-radius: 50%;
   background-color: transparent;
@@ -694,8 +702,8 @@ section {
   position: absolute;
   top: 160px;
   right: 15px;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border: 1px solid #ffffff;
   border-radius: 50%;
   background-color: transparent;
@@ -1231,10 +1239,28 @@ section {
   position: absolute;
   left: 36px;
   top: -13.5px;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #44c697;
+  border-radius: 50%;
+  background-color: #44c697;
+  fill: #ffffff;
+  -webkit-box-shadow: 0px 4px 12px rgba(130, 130, 130, 0.2);
+          box-shadow: 0px 4px 12px rgba(130, 130, 130, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
 }
 
 .footer__logo {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 51px;
   margin-bottom: 50px;
   display: -webkit-box;

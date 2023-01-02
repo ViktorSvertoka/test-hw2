@@ -79,6 +79,10 @@
   align-items: center;
 }
 
+.header__contacts-icon {
+  margin-left: 5px;
+}
+
 .header__nav-list {
   display: flex;
   flex-direction: row;
@@ -132,7 +136,7 @@
   padding-bottom: 0;
 }
 
-.header__part2__container {
+.header__container2 {
   display: flex;
   flex-direction: row;
 }
@@ -163,6 +167,10 @@
   color: $primary-color;
   display: flex;
   align-items: center;
+}
+
+.header__assortment-icon {
+  margin-left: 5px;
 }
 
 .header__logo {
@@ -311,8 +319,8 @@
 }
 
 .hero__button-left {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border: 1px solid $primary-color;
   border-radius: 50%;
   background-color: transparent;
@@ -330,8 +338,8 @@
 }
 
 .hero__button-right {
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border: 1px solid $primary-color;
   border-radius: 50%;
   background-color: transparent;
@@ -404,8 +412,8 @@
   position: absolute;
   top: 160px;
   left: 15px;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border: 1px solid $secondary-color;
   border-radius: 50%;
   background-color: transparent;
@@ -506,8 +514,8 @@
   position: absolute;
   top: 160px;
   right: 15px;
-  width: 30px;
-  height: 30px;
+  width: 50px;
+  height: 50px;
   border: 1px solid $secondary-color;
   border-radius: 50%;
   background-color: transparent;
@@ -1010,10 +1018,22 @@
   position: absolute;
   left: 36px;
   top: -13.5px;
+
+  width: 50px;
+  height: 50px;
+  border: 1px solid $accent-color;
+  border-radius: 50%;
+  background-color: $accent-color;
+  fill: $secondary-color;
+  box-shadow: 0px 4px 12px rgba(130, 130, 130, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .footer__logo {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-left: 51px;
   margin-bottom: 50px;
   display: flex;
