@@ -78,6 +78,8 @@
   margin-left: 10px;
   margin-right: 10px;
   white-space: nowrap;
+  display: flex;
+  align-items: center;
 }
 
 .header__nav {
@@ -165,6 +167,8 @@
   line-height: 1.22;
   text-transform: uppercase;
   color: $primary-color;
+  display: flex;
+  align-items: center;
 }
 
 .header__logo {
@@ -194,6 +198,11 @@
   align-items: center;
   padding-right: 51px;
   margin-left: auto;
+}
+
+.header__order-link {
+  display: flex;
+  align-items: center;
 }
 
 .header__desc {
@@ -304,7 +313,48 @@
 }
 
 .hero__wrapper {
+  display: flex;
+  flex-direction: row;
   margin-top: 5px;
+  gap: 8px;
+}
+
+.hero__button-left {
+  width: 30px;
+  height: 30px;
+  border: 1px solid $primary-color;
+  border-radius: 50%;
+  background-color: transparent;
+  fill: $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &--active:hover,
+  &--active:focus {
+    background-color: $primary-color;
+    fill: $secondary-color;
+  }
+}
+
+.hero__button-right {
+  width: 30px;
+  height: 30px;
+  border: 1px solid $primary-color;
+  border-radius: 50%;
+  background-color: transparent;
+  fill: $primary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &--active:hover,
+  &--active:focus {
+    background-color: $primary-color;
+    fill: $secondary-color;
+  }
 }
 
 .benefits {
@@ -365,10 +415,26 @@
   position: relative;
 }
 
-.benefits__icon-left {
+.benefits__button-left {
   position: absolute;
   top: 160px;
   left: 15px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid $secondary-color;
+  border-radius: 50%;
+  background-color: transparent;
+  fill: $secondary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &--active:hover,
+  &--active:focus {
+    background-color: $secondary-color;
+    fill: $primary-color;
+  }
 }
 
 .benefits__position-title-l {
@@ -451,10 +517,26 @@
   position: relative;
 }
 
-.benefits__icon-right {
+.benefits__button-right {
   position: absolute;
   top: 160px;
   right: 15px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid $secondary-color;
+  border-radius: 50%;
+  background-color: transparent;
+  fill: $secondary-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  &--active:hover,
+  &--active:focus {
+    background-color: $secondary-color;
+    fill: $primary-color;
+  }
 }
 
 .benefits__position-title-r {
@@ -1056,6 +1138,8 @@
 }
 
 .footer__map-pin-link {
+  display: flex;
+  flex-direction: row;
 }
 
 .footer__map-pin-text {

@@ -185,6 +185,12 @@ section {
   margin-left: 10px;
   margin-right: 10px;
   white-space: nowrap;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header__nav-list {
@@ -296,6 +302,12 @@ section {
   line-height: 1.22;
   text-transform: uppercase;
   color: #1e2e36;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header__logo {
@@ -339,6 +351,15 @@ section {
           align-items: center;
   padding-right: 51px;
   margin-left: auto;
+}
+
+.header__order-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .header__desc {
@@ -455,7 +476,61 @@ section {
 }
 
 .hero__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   margin-top: 5px;
+  gap: 8px;
+}
+
+.hero__button-left {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #1e2e36;
+  border-radius: 50%;
+  background-color: transparent;
+  fill: #1e2e36;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+.hero__button-left--active:hover, .hero__button-left--active:focus {
+  background-color: #1e2e36;
+  fill: #ffffff;
+}
+
+.hero__button-right {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #1e2e36;
+  border-radius: 50%;
+  background-color: transparent;
+  fill: #1e2e36;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+.hero__button-right--active:hover, .hero__button-right--active:focus {
+  background-color: #1e2e36;
+  fill: #ffffff;
 }
 
 .benefits {
@@ -513,10 +588,30 @@ section {
   position: relative;
 }
 
-.benefits__icon-left {
+.benefits__button-left {
   position: absolute;
   top: 160px;
   left: 15px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  background-color: transparent;
+  fill: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+.benefits__button-left--active:hover, .benefits__button-left--active:focus {
+  background-color: #ffffff;
+  fill: #1e2e36;
 }
 
 .benefits__position-title-l {
@@ -595,10 +690,30 @@ section {
   position: relative;
 }
 
-.benefits__icon-right {
+.benefits__button-right {
   position: absolute;
   top: 160px;
   right: 15px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  background-color: transparent;
+  fill: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  cursor: pointer;
+}
+.benefits__button-right--active:hover, .benefits__button-right--active:focus {
+  background-color: #ffffff;
+  fill: #1e2e36;
 }
 
 .benefits__position-title-r {
@@ -1206,6 +1321,16 @@ section {
       -ms-flex-direction: row;
           flex-direction: row;
   margin-bottom: 15.5px;
+}
+
+.footer__map-pin-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .footer__map-pin-text {

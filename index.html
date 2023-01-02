@@ -55,11 +55,11 @@
                 <use href="./img/icons.svg#icon-smartphone-b"></use>
               </svg>
               <a class="header__contacts-tel" href="tel:+380991112233"
-                >(099) 111 22 33</a
-              >
-              <svg class="" width="24" height="24">
-                <use href="./img/icons.svg#icon-arrow-button"></use>
-              </svg>
+                >(099) 111 22 33
+                <svg class="" width="24" height="24">
+                  <use href="./img/icons.svg#icon-arrow-button"></use>
+                </svg>
+              </a>
             </div>
           </div>
           <nav class="header__nav">
@@ -98,40 +98,52 @@
           <div class="header__assortment">
             <ul class="header__assortment-list">
               <li class="header__assortment-item">
-                <a class="header__assortment-link" href="##">Дивани</a>
-                <svg class="" width="20" height="20">
-                  <use href="./img/icons.svg#icon-arrow-button"></use>
-                </svg>
+                <a class="header__assortment-link" href="##"
+                  >Дивани
+                  <svg class="" width="20" height="20">
+                    <use href="./img/icons.svg#icon-arrow-button"></use>
+                  </svg>
+                </a>
               </li>
               <li class="header__assortment-item">
-                <a class="header__assortment-link" href="##">Ліжка</a>
-                <svg class="" width="20" height="20">
-                  <use href="./img/icons.svg#icon-arrow-button"></use>
-                </svg>
+                <a class="header__assortment-link" href="##"
+                  >Ліжка
+                  <svg class="" width="20" height="20">
+                    <use href="./img/icons.svg#icon-arrow-button"></use>
+                  </svg>
+                </a>
               </li>
               <li class="header__assortment-item">
-                <a class="header__assortment-link" href="##">Крісла</a>
-                <svg class="" width="20" height="20">
-                  <use href="./img/icons.svg#icon-arrow-button"></use>
-                </svg>
+                <a class="header__assortment-link" href="##"
+                  >Крісла
+                  <svg class="" width="20" height="20">
+                    <use href="./img/icons.svg#icon-arrow-button"></use>
+                  </svg>
+                </a>
               </li>
               <li class="header__assortment-item">
-                <a class="header__assortment-link" href="##">Комоди</a>
-                <svg class="" width="20" height="20">
-                  <use href="./img/icons.svg#icon-arrow-button"></use>
-                </svg>
+                <a class="header__assortment-link" href="##"
+                  >Комоди
+                  <svg class="" width="20" height="20">
+                    <use href="./img/icons.svg#icon-arrow-button"></use>
+                  </svg>
+                </a>
               </li>
               <li class="header__assortment-item">
-                <a class="header__assortment-link" href="##">Шафи</a>
-                <svg class="" width="20" height="20">
-                  <use href="./img/icons.svg#icon-arrow-button"></use>
-                </svg>
+                <a class="header__assortment-link" href="##"
+                  >Шафи
+                  <svg class="" width="20" height="20">
+                    <use href="./img/icons.svg#icon-arrow-button"></use>
+                  </svg>
+                </a>
               </li>
               <li class="header__assortment-item">
-                <a class="header__assortment-link" href="##">Кухня</a>
-                <svg class="" width="20" height="20">
-                  <use href="./img/icons.svg#icon-arrow-button"></use>
-                </svg>
+                <a class="header__assortment-link" href="##"
+                  >Кухня
+                  <svg class="" width="20" height="20">
+                    <use href="./img/icons.svg#icon-arrow-button"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
@@ -144,10 +156,11 @@
             </p>
           </div>
           <div class="header__order">
-            <svg class="" width="30" height="30">
-              <use href="./img/icons.svg#icon-shopping-cart"></use>
-            </svg>
-            <a href="">
+            <a class="header__order-link" href="##">
+              <svg class="" width="30" height="30">
+                <use href="./img/icons.svg#icon-shopping-cart"></use>
+              </svg>
+
               <p class="header__desc">Кошик</p>
             </a>
             <button class="header__button" type="submit">
@@ -169,16 +182,22 @@
               01 <span class="hero__numbers-small">/ 04</span>
             </p>
             <div class="hero__wrapper">
-              <a class="" href="">
-                <svg class="hero__link-left" width="30" height="30">
-                  <use href="./img/icons.svg#icon-left-arrow"></use>
+              <button
+                class="hero__button-left hero__button-left--active"
+                type="button"
+              >
+                <svg class="hero__icon-left" width="12" height="12">
+                  <use href="./img/icons.svg#icon-arrow-left"></use>
                 </svg>
-              </a>
-              <a class="hero__link-right" href="">
-                <svg class="" width="30" height="30">
-                  <use href="./img/icons.svg#icon-right-arrow"></use>
+              </button>
+              <button
+                class="hero__button-right hero__button-right--active"
+                type="button"
+              >
+                <svg class="hero__icon-right" width="12" height="12">
+                  <use href="./img/icons.svg#icon-arrow-right"></use>
                 </svg>
-              </a>
+              </button>
             </div>
           </div>
         </div>
@@ -199,11 +218,14 @@
                   src="./img/benefits1.jpg"
                   alt="Меблі преміум класу"
                 />
-                <a class="benefits__link" href="##">
-                  <svg class="benefits__icon-left" width="30" height="30">
-                    <use href="./img/icons.svg#icon-left-transparent"></use>
+                <button
+                  class="benefits__button-left benefits__button-left--active"
+                  type="button"
+                >
+                  <svg class="benefits__icon-left" width="12" height="12">
+                    <use href="./img/icons.svg#icon-arrow-left"></use>
                   </svg>
-                </a>
+                </button>
                 <h2 class="benefits__position-title-l">Меблі преміум класу</h2>
                 <div class="benefits__position-box-l"></div>
                 <div class="benefits__overlay">
@@ -234,11 +256,14 @@
                   src="./img/benefits3.jpg"
                   alt="Безкоштовна доставка"
                 />
-                <a class="benefits__link" href="##">
-                  <svg class="benefits__icon-right" width="30" height="30">
-                    <use href="./img/icons.svg#icon-right-white"></use>
+                <button
+                  class="benefits__button-right benefits__button-right--active"
+                  type="button"
+                >
+                  <svg class="benefits__icon-right" width="12" height="12">
+                    <use href="./img/icons.svg#icon-arrow-right"></use>
                   </svg>
-                </a>
+                </button>
                 <h2 class="benefits__position-title-r">Безкоштовна доставка</h2>
                 <div class="benefits__position-box-r"></div>
                 <div class="benefits__overlay">
@@ -589,8 +614,8 @@
                   <svg class="" width="24" height="24">
                     <use href="./img/icons.svg#icon-map-pin"></use>
                   </svg>
+                  <p class="footer__map-pin-text">TEST</p>
                 </a>
-                <p class="footer__map-pin-text">TEST</p>
               </div>
               <div class="footer__calendar">
                 <svg class="" width="24" height="24">
