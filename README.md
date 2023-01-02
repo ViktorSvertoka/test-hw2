@@ -65,12 +65,12 @@ font-style: normal; }
 
 font-weight:
 
-1. 100 - thin
+1. 100 - Thin
 2. 200 - UltraLite
-3. 300 - lite
-4. 400 - normal
-5. 500 - medium
-6. 600 - semibold
-7. 700 - bold
+3. 300 - Lite
+4. 400 - Normal
+5. 500 - Medium
+6. 600 - Semibold
+7. 700 - Bold
 8. 800 - Heavy
-9. 900 - black
+9. 900 - Black
